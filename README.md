@@ -1,5 +1,5 @@
 # vmware-vm-deflate
-Shell script that automates reducing / resizing thin VMDK disks with XFS filesystem.
+Shell script that automates reducing / resizing thin / thick VMDK disks with XFS filesystem.
 
 Disk structure (default layout for CentOS):
 
