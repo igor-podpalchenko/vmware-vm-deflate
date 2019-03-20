@@ -16,8 +16,8 @@ Disk structure (default layout for CentOS):
 
 Script has following algorithm:
 
- 1.) Mount BUFFER and GUEST filesystems
- 1.) Create full filesystem dump using xfsdump for GUEST and store it on BUFFER (/mnt/buffer mounted disk)
+ 1.  ) Mount BUFFER and GUEST filesystems
+ 1.  ) Create full filesystem dump using xfsdump for GUEST and store it on BUFFER (/mnt/buffer mounted disk)
  1.) Repartition GUEST disk - delete existing LVM part.
  1.) ask for new LVM partition parameters
  1.) Restore XFS dump into new partition
