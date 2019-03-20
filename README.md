@@ -36,8 +36,7 @@ NO responsibility for data loss.
 
 Uncomment those two lines
 
-        set -x
-        
-	trap read debug
+     set -x
+     trap read debug
 
 if you want step by step commands tracing.
