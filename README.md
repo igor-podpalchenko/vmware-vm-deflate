@@ -39,4 +39,4 @@ Uncomment those two lines
      set -x
      trap read debug
 
-if you want step by step commands tracing.
+if you want step by step disk editing commands tracing.
