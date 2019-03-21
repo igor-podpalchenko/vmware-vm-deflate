@@ -34,10 +34,10 @@ Usage:
 
 Attach VM: Linux debian 3.16
 Install: 
+
+```
 	sudo apt-get install parted xfsdump xfsprogs lvm2
-
-
-parted
+```
 
 
 EDIT script configuration BEFORE run.
