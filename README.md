@@ -1,6 +1,7 @@
 # vmware-vm-deflate
 
 ## Shell script that automates reducing unused free space (deflates) / resizing thin / thick VMDK disks with XFS filesystem.
+![Result of unused free space deflation](https://raw.githubusercontent.com/igor-podpalchenko/vmware-vm-deflate/master/result.png)
 
 Script uses buffer disk (Attach VmWare disk with ext/xfs for XFS file dumps storage)
 
