@@ -30,6 +30,15 @@ Script has following algorithm:
  1.  ) Run "vmkfstools -i input.vmdk -d thin output.vmdk"
  1.  ) Attach output.vmdk back to VM
 
+Usage:
+
+Attach VM: Linux debian 3.16
+Install: 
+	sudo apt-get install parted xfsdump xfsprogs lvm2
+
+
+parted
+
 
 EDIT script configuration BEFORE run.
 BACKUP your data before resizing.
