@@ -32,8 +32,13 @@ Script has following algorithm:
 
 Usage:
 
-Attach VM: Linux debian 3.16
-Install: 
+Attach VM and install: Linux debian 3.16
+
+Shutdown target VM and attach its VMDK to fixer VM (`/dev/sdc`).
+Attach second buffer virtual disk (`/dev/sdb`)
+![Attach ](https://raw.githubusercontent.com/igor-podpalchenko/vmware-vm-deflate/master/disks.png)
+
+Install packages: 
 
 ```
 	sudo apt-get install parted xfsdump xfsprogs lvm2
